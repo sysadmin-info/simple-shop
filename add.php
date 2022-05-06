@@ -1,4 +1,4 @@
-<?php 
+<?php
 require "connect.php"
   
   if (@$_POST['name']!=null && @$_POST['description']!=null && @$_POST['price']!=null){
