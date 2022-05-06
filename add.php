@@ -9,8 +9,9 @@ require "connect.php"
     }
     else {
       echo "Product has been added:" .$_POST['name'];
-    }
+    };
     $row=@mysqli_fetch.assoc($result);
     header('location: login.php');
-  }
+  };
+
 ?>
